@@ -55,7 +55,7 @@ const Movielist = () => {
       }
   return (
     page===true?(
-        <div className='m-6 flex flex-wrap'>
+        <div className='m-6 flex flex-wrap mx-auto justify-center'>
             
             {
                 movieDetails?.map((movieDetail,index)=>{
